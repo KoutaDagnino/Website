@@ -8,7 +8,7 @@ function wpdocs_set_html_mail_content_type() {
 add_filter( 'wp_mail_content_type', 'wpdocs_set_html_mail_content_type' );
 
 $message = '<p>Nombre:' . $_POST['nombre'] . '</p><p>Email:' . $_POST['email'] .'</p><p>...</p>';
-$result = wp_mail('proyectosonline@isern.com', 'New mail', $message);
+$result = wp_mail('akd95@ou.ac.uk', 'New mail', $message);
 if ($result ) {
     // Do something here
 }
